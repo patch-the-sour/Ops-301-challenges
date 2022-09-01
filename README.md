@@ -1,3 +1,5 @@
 # Ops-301-challenges
-[challenge 02](challenge02.sh)
-[challenge 03](challenge03.sh)
+
+[challenge02](challenge02.sh)
+
+[challenge03](challenge03.sh)
