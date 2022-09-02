@@ -1,6 +1,8 @@
+#!/bin/bash
+
 
 # Script: Conditional Menu System
-# Author: Graceson Langston                     
+# Author: Graceson Langston                    
 # Date of latest revision:  9/1/22    
 # Purpose: Create a bash script that launches a menu system with the following options:
 
@@ -27,9 +29,9 @@ echo $msg
   select opt in "Print 'Hello World!'" "Ping Self" "IP Info" "Exit" ; do
         case $opt in
             "Print 'Hello World!'" ) echo "Hello World" && echo -e "\n$again" ;;
-            "Ping This Computer" ) ping 127.0.0.1 -c 3 && echo -e "\n$again" ;;
+            "Ping Self" ) ping 127.0.0.1 -c 3 && echo -e "\n$again" ;;
             "IP Info" ) sudo lshw -class network -short && echo -e "\n$again" ;;
-            "Exit" ) echo "Good Bye"; break;;     
+            "Exit" ) echo "Duces!"; break;;     
         esac    
         REPLY=   
     done
