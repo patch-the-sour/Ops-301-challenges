@@ -5,3 +5,5 @@
 [challenge03](challenge03.sh)
 
 [challenge04](challenge04.sh)
+
+[challenge05](challenge05.sh)
