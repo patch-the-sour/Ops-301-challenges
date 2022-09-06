@@ -1,21 +1,26 @@
 #!/bin/bash
 
-# Script Name:
+# Script Name:Clearing logs
 # Author:Graceson Langston
-# Date of last revision:09/02/22
-# Description of purpose:Log clearing
+# Date of last revision:09/05/22
+# Description of purpose: Clearing system logs 
 
+cd /var/log
 
-# Declaration of variables:
-syslogVary=/var/log/syslog
-wtmpVary=/var/log/wtmp
+# printing before contents
+echo "Contents of syslog before clearing"
+cat syslog
+echo "Contents of wtmp before clearing"
+cat wtmp
 
-# Declaration of functions:
+# clearing the files
+cd /var/log
+cat /dev/null > syslog
+cat /dev/null > wtmp
 
-function clear_log {
-    contents
-}
-
-
-
-# End
+# printing contents after clearing
+echo "syslog after clearing"
+cat syslog
+echo "wtmp after clearing"
+cat wtmp
+echo "Good Bye."
