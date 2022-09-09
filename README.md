@@ -8,3 +8,5 @@
 -[challenge05](challenge05.sh)
 
 -[challenge06](challenge06.py)
+
+-[challenge08](challenge08.ps)
