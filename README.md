@@ -4,5 +4,6 @@
 - [challenge04](challenge04.sh)
 - [challenge05](challenge05.sh)
 - [challenge06](challenge06.py)
+- [challenge07](challenge07.py)
 - [challenge08](challenge08.ps)
 - [challenge09](challenge09.py)
