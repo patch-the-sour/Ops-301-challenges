@@ -7,3 +7,4 @@
 - [challenge07](challenge07.py)
 - [challenge08](challenge08.ps)
 - [challenge09](challenge09.py)
+- [challenge10](challenge10.py)
