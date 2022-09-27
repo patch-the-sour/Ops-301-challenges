@@ -8,3 +8,4 @@
 - [challenge08](challenge08.ps)
 - [challenge09](challenge09.py)
 - [challenge10](challenge10.py)
+- [challenge11](challenge11.py)
